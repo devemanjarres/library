@@ -16,7 +16,7 @@
     <body>
         <div class="wrapper">
             <div class="inner">
-                <img src="../../public/img/image-1.png" alt="" class="image-1">
+                <img src="../../Public/img/image-1.png" alt="" class="image-1">
                 <form action="${pageContext.request.contextPath}/UsuarioServlet?accion=nuevacuenta" method="POST">
                     <h4 style="margin-bottom: 4%;"><center>Biblioteca Nacional | Nueva cuenta</center> </h4>
                     <div class="form-holder">
