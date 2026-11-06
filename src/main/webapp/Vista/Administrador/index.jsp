@@ -21,6 +21,7 @@
         <title>Sistema Información Académica | SIA</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+          Bienvenido, Administrador: <%= usuarioLogueado.getNombre()%>
+        <a  href="<%= request.getContextPath()%>/LogoutServlet">Cerrar Sesión</a>
     </body>
 </html>
